@@ -1,0 +1,30 @@
+.navbar1{
+    background-color: rgba(24, 22, 22, 0.849);
+    color: aliceblue;
+    margin: 0px;
+    padding: 0px;
+    height: 25px;
+    text-align: center;
+
+
+   
+    
+}
+.navbar1 li {
+    list-style: none;
+    display:inline;
+    margin: 50px;
+    padding: 0px;
+    font-style:oblique;
+    justify-content: center;
+   
+}
+
+
+
+
+    .navbar1 ul {
+        margin: 0px;
+
+
+    }

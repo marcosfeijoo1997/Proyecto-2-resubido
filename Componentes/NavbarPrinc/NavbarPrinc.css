@@ -1,0 +1,59 @@
+
+.Enrutado img{
+    width: 50px;
+    position: relative;
+    position: relative;
+    border-radius: 100%;
+    right:0px
+    
+
+}
+
+.Enrutado {
+  
+    font-size: 25px;
+  background-color: rgb(209, 199, 199);
+}
+.Enrutado ul li{
+    display: inline;
+    margin: 105px;
+    vertical-align: middle;
+    font-style: oblique;
+    
+}
+
+.Enrutado ul li a {
+    text-decoration: none;
+  
+}
+
+    .w3rcontainer{
+       border: 1px solid #cccfdb;
+       border-radius: 2px;
+    } 
+    .hover-underline-animation {
+      display: inline-block;
+      position: relative;
+      color: #0000009f;
+    }
+    
+    .hover-underline-animation:after {
+      content: '';
+      position: absolute;
+      width: 100%;
+      transform: scaleX(0);
+      height: 2px;
+      bottom: 0;
+      left: 0;
+      background-color: #000000;
+      transform-origin: bottom right;
+      transition:transform 0.25s ease-out;
+    }
+    
+    .hover-underline-animation:hover:after {
+      transform: scaleX(1);
+      transform-origin: bottom left;
+    }
+.NoUnderline {
+  display: inline-block;
+}
