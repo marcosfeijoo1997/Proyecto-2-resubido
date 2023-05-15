@@ -1,6 +1,7 @@
 import React,{useEffect,useState} from "react"
-import { Link, useParams } from "react-router-dom"
+import { Link as div, useParams } from "react-router-dom"
 import {getFirestore,collection,getDocs, DocumentSnapshot,where,query} from 'firebase/firestore'
+import Sliders from "./Sliders"
 import './categorias.css'
 
 
@@ -42,17 +43,18 @@ const ItemList=({texto})=>{
         <div>{products.map((products)=>(
             
         
-        <Link className="links"key={products.id} to={`/Categorias/${products.id}`}
+        <div className="links"key={products.id} to={`/Categorias/${products.id}`}
 >
        <h1 className="Categorias">{products.title}</h1>
        <img src={products.image}/>
+       <Sliders/>
       
        
        
        
 
 
-        </Link>
+        </div>
         ))}</div>
     
     )
